@@ -1,0 +1,20 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  grid-auto-rows: minmax(100px, auto);
+  justify-items: stretch;
+  align-items: stretch;
+}
+.grid-item1,.grid-item2,.grid-item3, .grid-item4 {
+  background-color: aqua;
+  margin: 2px;
+  
+}
+.grid-item1 {
+  grid-column: 2/4;
+  grid-row: 1/3;
+
+}
+
